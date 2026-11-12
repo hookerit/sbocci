@@ -1,0 +1,25 @@
+# Creates a Release page (with Sorso.apk attached) each time a new version.json is pushed.
+name: Release
+on:
+  push:
+    branches: [main]
+    paths: [version.json, .github/workflows/release.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create the release if it does not exist yet
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VER=$(jq -r .version version.json)
+          jq -r .notes version.json > notes.txt
+          if gh release view "v$VER" >/dev/null 2>&1; then
+            echo "v$VER already exists"
+          else
+            gh release create "v$VER" Sorso.apk --title "Sorso $VER" --notes-file notes.txt --latest
+          fi
