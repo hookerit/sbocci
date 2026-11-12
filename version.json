@@ -1,6 +1,6 @@
 {
-  "version": "4.3",
-  "notes": "Ogni giorno una curiosità sulla pianta che coltivi, al posto di \"Inizia con un bicchiere d'acqua\".",
+  "version": "4.4",
+  "notes": "Torna l'installazione automatica degli aggiornamenti: un tocco su Aggiorna e una conferma.",
   "size": 883363,
   "apk": "https://raw.githubusercontent.com/hookerit/sbocci/main/Sbocci.apk"
 }
