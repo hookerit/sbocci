@@ -1,6 +1,6 @@
 {
-  "version": "4.1",
-  "notes": "Sbocci non installa più gli aggiornamenti da sola: scarica il file nella cartella Download e lo apri tu dalla notifica.",
+  "version": "4.2",
+  "notes": "Versione di prova per l'aggiornamento: nessuna novità.",
   "size": 879267,
   "apk": "https://raw.githubusercontent.com/hookerit/sbocci/main/Sbocci.apk"
 }
