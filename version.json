@@ -1,6 +1,6 @@
 {
-  "version": "3.8",
-  "notes": "Sorso ora si chiama Sbocci. I tuoi bicchieri, la serra e le impostazioni restano tutti.",
-  "size": 875171,
+  "version": "3.9",
+  "notes": "Sbocci ora è firmata con la sua chiave, invece di quella generica di sviluppo. Nessun'altra novità.",
+  "size": 879267,
   "apk": "https://raw.githubusercontent.com/hookerit/sbocci/main/Sbocci.apk"
 }
