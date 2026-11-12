@@ -1,6 +1,6 @@
-# Sorso
+# Sbocci
 
-Un'app Android per bere più acqua: ogni giorno una pianta diversa cresce a ogni bicchiere.
+Un'app Android per bere più acqua: ogni giorno una pianta diversa sboccia a ogni bicchiere.
 
-Scarica `Sorso.apk` dall'ultima versione in [Releases](https://github.com/hookerit/sorso/releases/latest).
-Dalla 3.7 l'app controlla da sola questa pagina e propone gli aggiornamenti.
+Scarica `Sbocci.apk` dall'ultima versione in [Releases](https://github.com/hookerit/sbocci/releases/latest).
+L'app controlla da sola questa pagina e propone gli aggiornamenti.
