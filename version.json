@@ -1,6 +1,6 @@
 {
-  "version": "4.5",
-  "notes": "La curiosità sulla pianta del giorno ora resta visibile tutto il giorno, sotto il messaggio sui bicchieri.",
+  "version": "4.6",
+  "notes": "La curiosità ora usa lo stesso carattere del messaggio sopra.",
   "size": 883363,
   "apk": "https://raw.githubusercontent.com/hookerit/sbocci/main/Sbocci.apk"
 }
