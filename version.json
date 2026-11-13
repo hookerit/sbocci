@@ -1,6 +1,6 @@
 {
-  "version": "4.6",
-  "notes": "La curiosità ora usa lo stesso carattere del messaggio sopra.",
+  "version": "4.7",
+  "notes": "Sbocci torna a installarsi anche su Android 9.",
   "size": 883363,
   "apk": "https://raw.githubusercontent.com/hookerit/sbocci/main/Sbocci.apk"
 }
