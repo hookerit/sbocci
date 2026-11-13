@@ -1,9 +1,9 @@
-# Creates a Release page (with Sbocci.apk attached) each time a new version.json is pushed.
+# Creates a Release page (with the .aab and .apk attached) each time sboccy/latest.json changes.
 name: Release
 on:
   push:
     branches: [main]
-    paths: [version.json, .github/workflows/release.yml]
+    paths: [sboccy/latest.json, .github/workflows/release.yml]
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,10 +16,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          VER=$(jq -r .version version.json)
-          jq -r .notes version.json > notes.txt
-          if gh release view "v$VER" >/dev/null 2>&1; then
-            echo "v$VER already exists"
+          VER=$(jq -r .version sboccy/latest.json)
+          jq -r .notes sboccy/latest.json > notes.txt
+          if gh release view "sboccy-v$VER" >/dev/null 2>&1; then
+            echo "sboccy-v$VER already exists"
           else
-            gh release create "v$VER" Sbocci.apk --title "Sbocci $VER" --notes-file notes.txt --latest
+            gh release create "sboccy-v$VER" "$(jq -r .aab sboccy/latest.json)" "$(jq -r .apk sboccy/latest.json)" \
+              --title "Sboccy $VER" --notes-file notes.txt --latest
           fi
