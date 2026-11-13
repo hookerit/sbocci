@@ -3,7 +3,7 @@
 Un'app Android per bere più acqua: ogni giorno una pianta diversa sboccia a ogni bicchiere.
 
 Questo repository conserva una copia di backup dei pacchetti, nella cartella `sboccy/` e nelle
-[Releases](https://github.com/hookerit/sbocci/releases):
+[Releases](https://github.com/hookerit/sboccy/releases):
 - `Sboccy-<versione>.aab` — il pacchetto per Google Play;
 - `Sboccy-<versione>.apk` — da installare a mano.
 

@@ -33,5 +33,5 @@ Sboccy non è rivolta ai bambini e, come per tutti gli utenti, non raccoglie alc
 Se questa informativa cambia, la versione aggiornata viene pubblicata a questo stesso indirizzo e nell'app, con la nuova data.
 
 ## Contatti
-Per domande su questa informativa: https://github.com/hookerit/sbocci/issues
+Per domande su questa informativa: https://github.com/hookerit/sboccy/issues
 
