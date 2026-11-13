@@ -1,6 +1,6 @@
 {
-  "version": "4.7",
-  "notes": "Sbocci torna a installarsi anche su Android 9.",
-  "size": 883363,
+  "version": "4.8",
+  "notes": "Nuovo: in Impostazioni puoi esportare un backup di tutti i dati (impostazioni, bicchieri, serra) e importarlo in Sboccy.",
+  "size": 887459,
   "apk": "https://raw.githubusercontent.com/hookerit/sbocci/main/Sbocci.apk"
 }
