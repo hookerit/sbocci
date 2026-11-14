@@ -1,11 +1,10 @@
-# Sboccy
+# Sbocci (Sorso)
 
 Un'app Android per bere più acqua: ogni giorno una pianta diversa sboccia a ogni bicchiere.
 
-Questo repository conserva una copia di backup dei pacchetti, nella cartella `sboccy/` e nelle
-[Releases](https://github.com/hookerit/sboccy/releases):
-- `Sboccy-<versione>.aab` — il pacchetto per Google Play;
-- `Sboccy-<versione>.apk` — da installare a mano.
+Qui c'è la vecchia app **Sbocci** (prima "Sorso"), fino alla versione 4.8: `Sbocci.apk` e `version.json`,
+che le copie installate leggono per proporre gli aggiornamenti, e le sue [Releases](https://github.com/hookerit/sboccy/releases).
 
-Sboccy si aggiorna solo da Google Play. I file `Sbocci.apk` e `version.json` nella cartella
-principale appartengono alla vecchia app (Sorso/Sbocci, fino alla 4.7) e non vengono più aggiornati.
+La nuova app **Sboccy** si scarica da Google Play. In questo repository restano solo:
+- `sboccy/privacy.md` — l'informativa sulla privacy di Sboccy;
+- `sboccy/store/` — le immagini della scheda del Play Store.
